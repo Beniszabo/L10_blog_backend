@@ -1,0 +1,61 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Blog14F",
+    "collectionId": "7644d433-bb1c-4863-a827-ed0bb4e1cc2d",
+    "dateExported": "2025-01-10T10:27:28.972Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a900ddeb-7fe1-49b9-976f-6ed68a3aaff7",
+            "colId": "7644d433-bb1c-4863-a827-ed0bb4e1cc2d",
+            "containerId": "",
+            "name": "resgister",
+            "url": "http://127.0.0.1:8000/api/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-01-10T08:07:45.017Z",
+            "modified": "2025-01-10T08:38:43.580Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"SZB\",\n  \"email\":\"c@c.hu\",\n  \"password\":\"a\",\n  \"confirm_password\":\"a\",\n  \"role\":0\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "191c5d3d-ab30-4f06-9906-7c0c92e5e5a5",
+            "colId": "7644d433-bb1c-4863-a827-ed0bb4e1cc2d",
+            "containerId": "",
+            "name": "login",
+            "url": "http://127.0.0.1:8000/api/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2025-01-10T09:20:39.678Z",
+            "modified": "2025-01-10T09:22:13.700Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"a@a.hu\",\n  \"password\":\"a\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "908316a6-5f5a-43bf-8de3-fd9f0eb9e5de",
+            "colId": "7644d433-bb1c-4863-a827-ed0bb4e1cc2d",
+            "containerId": "",
+            "name": "logout",
+            "url": "http://127.0.0.1:8000/api/logout",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2025-01-10T10:01:13.810Z",
+            "modified": "2025-01-10T10:06:40.032Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "2|T2fUeWdqhkcyiM5S5FMaav6UIEZRhsKAc8mZya8J0cca0947"
+            }
+        }
+    ],
+    "ref": "2n81ZNsZ8pDXjoOFvM3hNWRNM0pzPOdXsvxdikm09O7BnGQ2ipmfEFyghhCsON9ByrG9XqO3tvUbD120NYjQKw"
+}
